@@ -9,6 +9,7 @@ using System.Text;
 
 namespace r23142rtwdfasf33q3
 {
+    //pic:https://puu.sh/ElupZ/f3aa717d26.png
     public class C323123234vdfgg546j3423wfg
     {
         public void Clear()

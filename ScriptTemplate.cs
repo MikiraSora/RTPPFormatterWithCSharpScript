@@ -26,7 +26,7 @@ namespace r/*@@namespace@@*/
             return new Func<DisplayerBase, string>(x =>
             {
                 ctx = x;
-                Execute(x);
+                return Execute(x);
             });
         }
     }
