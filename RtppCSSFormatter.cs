@@ -115,7 +115,7 @@ namespace RTPPFormatterWithCSharpScript
             rand_classname = $"r{rr}class";
 
             var assemblies_imports_regex = new Regex(@"//@(.*\.dll)", RegexOptions.Compiled);
-            var using_namespace_imports_regex = new Regex(@"using [^\(\)\s]+;", RegexOptions.Compiled);
+            var using_namespace_imports_regex = new Regex(@"using [^\(\)\s\=]+;", RegexOptions.Compiled);
             var addition_regex = new Regex("@(.+?;)", RegexOptions.Compiled);
             var multi_line_addition_regex = new Regex("@@(.+?)@@", RegexOptions.Singleline);
 

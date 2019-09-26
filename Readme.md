@@ -10,7 +10,7 @@
 2. 打开Sync,输入`config`.
 3. 找到RealtimePPDisplayer的配置页面，将Formatter项更改成`rtppfmt-csharp-script`.点击Save按钮，关闭配置窗口，Sync输入`restart`来重启.
 ![](https://puu.sh/ElrFm/07610e19e5.png)
-4. 重启后，再输入`config`打开配置页面,打开PPFormat的编辑窗口，写入指定格式的C#代码即可看到Sync控制台输出的实际C#动态代码,以及wpf窗口和编辑器底下preview窗口显示的结果.[代码格式指导]()，[脚本示例1](),[脚本示例2]()
+4. 重启后，再输入`config`打开配置页面,打开PPFormat的编辑窗口，写入指定格式的C#代码,即可看到Sync控制台输出的实际C#动态代码和编译效果,以及wpf窗口和编辑器底下preview窗口显示的结果.[代码格式指导]()，[脚本示例1](),[脚本示例2]()
 ![](https://puu.sh/ElrRU/622c263eb5.png)
 5. 若对Formatter代码满意，则关闭Formatter编辑器窗口，并点击Save按钮。
 

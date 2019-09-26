@@ -12,6 +12,8 @@ namespace r/*@@namespace@@*/
 {
     public class C/*@@class@@*/
     {
+        DisplayerBase ctx;
+
         /*@@addition@@*/
 
         public string Execute(DisplayerBase display)
@@ -21,7 +23,11 @@ namespace r/*@@namespace@@*/
 
         public Func<DisplayerBase, string> ExecuteWrapper()
         {
-            return new Func<DisplayerBase, string>(x => Execute(x));
+            return new Func<DisplayerBase, string>(x =>
+            {
+                ctx = x;
+                Execute(x);
+            });
         }
     }
 }
